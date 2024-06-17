@@ -165,7 +165,7 @@ function printCanvas() {
   tc +=     '<style>'
   tc +=       'body{ margin: 40px; }'
   tc +=       '.box p {font-size:' + parseInt(fontSize) + 'px; padding: 0px 5px; Font-weight: bold; color:' + nameColor + ';}'
-  tc +=       '.wrapper { display: grid; grid-gap: 10px; grid-template-columns: ' + imageWidth + 'px'  + imageWidth + 'px'  + imageWidth + 'px' +  + imageWidth + 'px background-color: #fff; color: #444; }'
+  tc +=       '.wrapper { display: grid; grid-gap: 10px; grid-template-columns: ' + imageWidth + 'px '  + imageWidth + 'px '  + imageWidth + 'px '  + imageWidth + 'px; background-color: #fff; color: #444; justify-content: center; }'
   tc +=       '.box {background-color:' + bgColor + '; color: #fff; border-radius: 5px; padding: 20px; font-size: 150%; width:' + imageWidth + 'px;}'          
   //Create the classes for the grid
   for(var i = 1; i < numberOfRows + 1 ; i++){
